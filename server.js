@@ -1,5 +1,3 @@
-//Bot Invite Link: https://discordapp.com/oauth2/authorize?client_id=542912770857893888&scope=bot&permissions=116736
-
 //Start SQLite
 const fs = require('fs');
 const sqlite3 = require('sqlite3').verbose();
