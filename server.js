@@ -65,7 +65,7 @@ client.on('messageDelete', msg => {
 });
 
 client.on('messageUpdate', (oldMsg, newMsg) => {
-  if(msg.author.id === client.user.id) {
+  if(oldMsg.author.id === client.user.id) {
     return;
   }
 
