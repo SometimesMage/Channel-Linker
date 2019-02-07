@@ -1,0 +1,24 @@
+{
+  "name": "dsicord-channel-linker",
+  "version": "0.1.0",
+  "description": "A simple discord to link channels",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SometimesMage/Channel-Linker.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SometimesMage/Channel-Linker/issues"
+  },
+  "homepage": "https://github.com/SometimesMage/Channel-Linker#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "sqlite3": "^4.0.6"
+  }
+}
